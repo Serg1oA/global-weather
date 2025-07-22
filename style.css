@@ -1,0 +1,29 @@
+/* Minimal styling for the globe container */
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: linear-gradient(180deg, #181c24 0%, #232a36 100%);
+  color: #222;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 24px 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#globe-container {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  background: #232a36;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.45);
+  overflow: hidden;
+  position: relative;
+}
